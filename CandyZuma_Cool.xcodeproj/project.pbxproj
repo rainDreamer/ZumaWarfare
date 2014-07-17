@@ -25,6 +25,15 @@
 		0AEC7E5418951FE900793B24 /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC7E5318951FE900793B24 /* pop.mp3 */; };
 		0AEC7E5818952C3A00793B24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC7E5718952C3A00793B24 /* Default.png */; };
 		0AEC7E5A18952E2200793B24 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC7E5918952E2200793B24 /* Default~iphone.png */; };
+		10124885197826B20046089F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012487F197826B20046089F /* libTestFlight.a */; };
+		10124886197826B20046089F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10124880197826B20046089F /* README.md */; };
+		10124887197826B20046089F /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 10124881197826B20046089F /* release_notes.md */; };
+		101248881978272F0046089F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CAA1978112000E81BAD /* libz.dylib */; };
+		10B63CA7197810E300E81BAD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CA6197810E300E81BAD /* Parse.framework */; };
+		10B63CA91978111300E81BAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CA81978111300E81BAD /* CoreLocation.framework */; };
+		10B63CAD1978113000E81BAD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CAC1978113000E81BAD /* MobileCoreServices.framework */; };
+		10B63CAF1978123100E81BAD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CAE1978123100E81BAD /* FacebookSDK.framework */; };
+		10B63CB1197812CA00E81BAD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CB0197812CA00E81BAD /* Accounts.framework */; };
 		3C0084CB17E1533B000AC4A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0084CA17E1533B000AC4A1 /* QuartzCore.framework */; };
 		3C0084CD17E1533B000AC4A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0084CC17E1533B000AC4A1 /* OpenGLES.framework */; };
 		3C0084CF17E1533B000AC4A1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0084CE17E1533B000AC4A1 /* OpenAL.framework */; };
@@ -661,6 +670,18 @@
 		0AEC7E5318951FE900793B24 /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 		0AEC7E5718952C3A00793B24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		0AEC7E5918952E2200793B24 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "Resources/Default~iphone.png"; sourceTree = "<group>"; };
+		1012487F197826B20046089F /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		10124880197826B20046089F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		10124881197826B20046089F /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		10124882197826B20046089F /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		10124883197826B20046089F /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		10124884197826B20046089F /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		10B63CA6197810E300E81BAD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		10B63CA81978111300E81BAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		10B63CAA1978112000E81BAD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		10B63CAC1978113000E81BAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		10B63CAE1978123100E81BAD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		10B63CB0197812CA00E81BAD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		3C0084C717E1533B000AC4A1 /* CandyZuma_Cool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyZuma_Cool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0084CA17E1533B000AC4A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C0084CC17E1533B000AC4A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1486,6 +1507,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101248881978272F0046089F /* libz.dylib in Frameworks */,
+				10B63CB1197812CA00E81BAD /* Accounts.framework in Frameworks */,
+				10B63CAD1978113000E81BAD /* MobileCoreServices.framework in Frameworks */,
+				10B63CA91978111300E81BAD /* CoreLocation.framework in Frameworks */,
 				3CD771DB185158F100093B31 /* libz.1.2.5.dylib in Frameworks */,
 				3CD771D9185158D800093B31 /* CoreMedia.framework in Frameworks */,
 				3CD771D7185158C300093B31 /* CoreTelephony.framework in Frameworks */,
@@ -1496,14 +1521,17 @@
 				3CD771CD1851586800093B31 /* Social.framework in Frameworks */,
 				3CE8ACE9183F66E3000ED4EC /* CFNetwork.framework in Frameworks */,
 				3CD9BB9817EC424D00A09AFF /* Security.framework in Frameworks */,
+				10B63CA7197810E300E81BAD /* Parse.framework in Frameworks */,
 				3CAC284E17ECA50F0046E8DE /* AdSupport.framework in Frameworks */,
 				3CAC284D17ECA50F0046E8DE /* StoreKit.framework in Frameworks */,
 				3CAC284C17ECA50F0046E8DE /* SystemConfiguration.framework in Frameworks */,
 				3C0084CB17E1533B000AC4A1 /* QuartzCore.framework in Frameworks */,
 				3C0084CD17E1533B000AC4A1 /* OpenGLES.framework in Frameworks */,
 				3CD771CB1851539800093B31 /* AdColony.framework in Frameworks */,
+				10B63CAF1978123100E81BAD /* FacebookSDK.framework in Frameworks */,
 				3C0084CF17E1533B000AC4A1 /* OpenAL.framework in Frameworks */,
 				3C0084D117E1533B000AC4A1 /* AudioToolbox.framework in Frameworks */,
+				10124885197826B20046089F /* libTestFlight.a in Frameworks */,
 				3C0084D317E1533B000AC4A1 /* AVFoundation.framework in Frameworks */,
 				3C0084D517E1533B000AC4A1 /* UIKit.framework in Frameworks */,
 				3C0084D717E1533B000AC4A1 /* Foundation.framework in Frameworks */,
@@ -1518,9 +1546,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1012487E197826B20046089F /* TestFlightSDK3.0.2 */ = {
+			isa = PBXGroup;
+			children = (
+				1012487F197826B20046089F /* libTestFlight.a */,
+				10124880197826B20046089F /* README.md */,
+				10124881197826B20046089F /* release_notes.md */,
+				10124882197826B20046089F /* TestFlight+AsyncLogging.h */,
+				10124883197826B20046089F /* TestFlight+ManualSessions.h */,
+				10124884197826B20046089F /* TestFlight.h */,
+			);
+			path = TestFlightSDK3.0.2;
+			sourceTree = "<group>";
+		};
 		3C0084BE17E1533B000AC4A1 = {
 			isa = PBXGroup;
 			children = (
+				1012487E197826B20046089F /* TestFlightSDK3.0.2 */,
 				3C0084DE17E1533B000AC4A1 /* CandyZuma_Cool */,
 				3C0084C917E1533B000AC4A1 /* Frameworks */,
 				3C0084C817E1533B000AC4A1 /* Products */,
@@ -1538,6 +1580,12 @@
 		3C0084C917E1533B000AC4A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10B63CB0197812CA00E81BAD /* Accounts.framework */,
+				10B63CAE1978123100E81BAD /* FacebookSDK.framework */,
+				10B63CAC1978113000E81BAD /* MobileCoreServices.framework */,
+				10B63CAA1978112000E81BAD /* libz.dylib */,
+				10B63CA81978111300E81BAD /* CoreLocation.framework */,
+				10B63CA6197810E300E81BAD /* Parse.framework */,
 				3CD771DA185158F100093B31 /* libz.1.2.5.dylib */,
 				3CD771D8185158D800093B31 /* CoreMedia.framework */,
 				3CD771D6185158C300093B31 /* CoreTelephony.framework */,
@@ -2727,6 +2775,11 @@
 				TargetAttributes = {
 					3C0084C617E1533B000AC4A1 = {
 						DevelopmentTeam = UH5VVTMLZZ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -2940,6 +2993,7 @@
 				3C3E455F18851BAE005D9149 /* logo_mark-hd.png in Resources */,
 				3C3E457318851BAE005D9149 /* popup-bg-568h-hd.png in Resources */,
 				3C3E44E418851BAE005D9149 /* logo_mark.png in Resources */,
+				10124886197826B20046089F /* README.md in Resources */,
 				3C3E458A18851BAE005D9149 /* stage0004-hd.png in Resources */,
 				3C3E452118851BAE005D9149 /* unlock-all-levels-pop-up.png in Resources */,
 				3C3E45B118851BAE005D9149 /* stage0023_4inch-hd.png in Resources */,
@@ -2982,6 +3036,7 @@
 				3C3E44FD18851BAE005D9149 /* shop_screen.png in Resources */,
 				3C3E457818851BAE005D9149 /* shop_character2-hd.png in Resources */,
 				3C3E447A18851BAE005D9149 /* pause_restart-ipad.png in Resources */,
+				10124887197826B20046089F /* release_notes.md in Resources */,
 				3C3E450C18851BAE005D9149 /* stage0008.png in Resources */,
 				3C3E454C18851BAE005D9149 /* level_background-hd.png in Resources */,
 				3C3E44DC18851BAE005D9149 /* level_skips_2.png in Resources */,
@@ -3426,16 +3481,20 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/CandyZuma_Cool/libs",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CandyZuma_Cool/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CandyZuma_Cool/libs/kazmath/include\"";
 				INFOPLIST_FILE = CandyZuma_Cool/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CandyZuma_Cool/Classes/Chartboost\"",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
+					"$(PROJECT_DIR)/CandyZuma_Cool/TestFlightSDK3.0.2",
+					"$(PROJECT_DIR)/CandyZuma_Cool/libs/TestFlightSDK3.0.2",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -3443,7 +3502,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "41A82988-7F69-4BC5-83EE-58E15359FFC7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3452,22 +3511,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: intence media, LLC (UH5VVTMLZZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intence media, LLC (UH5VVTMLZZ)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/CandyZuma_Cool/libs",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CandyZuma_Cool/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"CandyZuma_Cool/libs/kazmath/include\"";
 				INFOPLIST_FILE = CandyZuma_Cool/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/CandyZuma_Cool/Classes/Chartboost\"",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
+					"$(PROJECT_DIR)/CandyZuma_Cool/TestFlightSDK3.0.2",
+					"$(PROJECT_DIR)/CandyZuma_Cool/libs/TestFlightSDK3.0.2",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -3475,7 +3538,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "E46B8120-B287-4694-99BB-069F95DB174A";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

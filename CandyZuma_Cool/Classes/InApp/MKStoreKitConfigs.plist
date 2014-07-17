@@ -14,10 +14,10 @@
 	</dict>
 	<key>Non-Consumables</key>
 	<array>
-		<string>com.YourBundleId.removeads</string>
-		<string>com.YourBundleId.character3</string>
-		<string>com.YourBundleId.character2</string>
-		<string>com.YourBundleId.unlockalllevels</string>
+		<string>com.intencemedia.zumawarfare.removeads</string>
+		<string>com.intencemedia.zumawarfare.threepack</string>
+		<string>com.intencemedia.zumawarfare.twocharactor</string>
+		<string>com.intencemedia.zumawarfare.all</string>
 	</array>
 	<key>Subscriptions</key>
 	<dict/>

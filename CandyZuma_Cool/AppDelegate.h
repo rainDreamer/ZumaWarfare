@@ -15,8 +15,8 @@
 #import "PlayHavenSDK.h"
 #import <AdColony/AdColony.h>
 
-#define REVMOB_ID  @"YOUR REVMOB ID"
-#define kLeaderboardID @"com.yourbundleid.leaderboard"
+#define REVMOB_ID  @"53c7e5ca0c10ca1b07488a18"
+#define kLeaderboardID @"com.intencemedia.leaderboard"
 #define phtoken @"YOUR PLAYHAVEN TOKEN"     // PlayHaven
 #define phsecret @"YOUR PLAYHAVEN SECRET"    // PlayHaven
 #define PlayHaven_PlacementID_1 @"game_launch"          // PlayHaven
@@ -32,8 +32,8 @@
 #define kZoneLoading @"ZoneLoading"
 #define kZoneReady @"ZoneReady"
 #define kZoneOff @"ZoneOff"
-#define AdColony_AppID @"YOUR ADCOLONY APP ID"
-#define AdColony_ZoneID @"YOUR ADCOLONY ZONE ID"
+#define AdColony_AppID @"app4e3f1666d775481288"
+#define AdColony_ZoneID @"vze229f608a6a5420b82"
 
 
 @class GameCenterManager;

@@ -38,11 +38,11 @@
 #ifndef IN_APP_VAL
 #define IN_APP_VAL
 
-static NSString* userStatus1_hd =           @"com.YourBundleId.unlockalllevels";
+static NSString* userStatus1_hd =           @"com.intencemedia.zumawarfare.all";
 static NSString* userStatus3_hd =           @"com.YourBundleId.Character3";
-static NSString* userStatus4_hd =           @"com.YourBundleId.Character2";
-static NSString* userStatus5_hd =           @"com.YourBundleId.removeads";
-static NSString* userStatus6_hd =           @"com.YourBundleId.levelskipsx3";
+static NSString* userStatus4_hd =           @"com.intencemedia.zumawarfare.twocharactor";
+static NSString* userStatus5_hd =           @"com.intencemedia.zumawarfare.removeads";
+static NSString* userStatus6_hd =           @"com.intencemedia.zumawarfare.threepack";
 
 
 #define SERVER_PRODUCT_MODEL 0
