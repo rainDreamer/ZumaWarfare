@@ -507,6 +507,8 @@
     if (gbSoundEnable)
     [[SimpleAudioEngine sharedEngine] playEffect:@"buffoneffect.mp3"];
     [[Chartboost sharedChartboost] showMoreApps];
+    AppController* appDel = (AppController*)[[UIApplication sharedApplication] delegate];
+    [[PHPublisherContentRequest requestForApp:phtoken secret: phsecret placement: PlayHaven_PlacementID_6 delegate: appDel] send];
 }
 
 - (void) onNewGames
@@ -521,7 +523,7 @@
 {
     if (gbSoundEnable)
         [[SimpleAudioEngine sharedEngine] playEffect:@"buffoneffect.mp3"];
-    NSURL *myURL = [NSURL URLWithString:@"http://georiot.co/2N9n"];
+    NSURL *myURL = [NSURL URLWithString:@"https://itunes.apple.com/us/artist/intence-media/id592330573?mt=8&uo=4&at=10lJ9a"];
     if ([[UIApplication sharedApplication] canOpenURL:myURL]) {
         [[UIApplication sharedApplication] openURL:myURL];
     }

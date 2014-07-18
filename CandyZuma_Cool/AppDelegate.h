@@ -15,15 +15,16 @@
 #import "PlayHavenSDK.h"
 #import <AdColony/AdColony.h>
 
-#define REVMOB_ID  @"53c7e5ca0c10ca1b07488a18"
+#define REVMOB_ID  @"f4b30875aa4b491a9c40e747b9d8907a"
 #define kLeaderboardID @"com.intencemedia.leaderboard"
-#define phtoken @"YOUR PLAYHAVEN TOKEN"     // PlayHaven
-#define phsecret @"YOUR PLAYHAVEN SECRET"    // PlayHaven
+#define phtoken @"641c06e4ad694c35b8116fa4952d822a"     // PlayHaven
+#define phsecret @"a259ab338a954db1aa362ee0d3801f15"    // PlayHaven
 #define PlayHaven_PlacementID_1 @"game_launch"          // PlayHaven
 #define PlayHaven_PlacementID_2 @"level_failed"         // PlayHaven
 #define PlayHaven_PlacementID_3 @"pause_menu"           // PlayHaven
 #define PlayHaven_PlacementID_4 @"level_complete"       // PlayHaven
 #define PlayHaven_PlacementID_5 @"new_games"          // PlayHaven
+#define PlayHaven_PlacementID_6 @"more_games"          // PlayHaven
 
 /*      AdColony    */
 #define kCurrencyBalance @"CurrencyBalance"
