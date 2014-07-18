@@ -39,10 +39,10 @@
 #define IN_APP_VAL
 
 static NSString* userStatus1_hd =           @"com.intencemedia.zumawarfare.all";
-static NSString* userStatus3_hd =           @"com.YourBundleId.Character3";
+static NSString* userStatus3_hd =           @"com.intencemedia.zumawarfare.threecharactor";
 static NSString* userStatus4_hd =           @"com.intencemedia.zumawarfare.twocharactor";
 static NSString* userStatus5_hd =           @"com.intencemedia.zumawarfare.removeads";
-static NSString* userStatus6_hd =           @"com.intencemedia.zumawarfare.threepack";
+static NSString* userStatus6_hd =           @"com.intencemedia.zumawarfare.threelevelskip";
 
 
 #define SERVER_PRODUCT_MODEL 0

@@ -58,6 +58,7 @@
 
 #import <Parse/Parse.h>
 #import "TestFlight.h"
+#import "Flurry.h"
 
 @implementation AppController
 
@@ -67,6 +68,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Flurry setCrashReportingEnabled:YES];
+    [Flurry startSession:@"DDNBSZSFHBDQ8G7N8TVN"];
     [TestFlight takeOff:@"3b9e146b-55ce-4c6e-b970-1c23e0b1756a"];
     [Parse setApplicationId:@"69kMuSNyvz3uwA7RjtxASTe3Eyc7kejSf1CUOEZ4"
                   clientKey:@"TEDZbQ8f3NRLZvgbqKVSSrMU1QtZRxdKN2O4uedN"];

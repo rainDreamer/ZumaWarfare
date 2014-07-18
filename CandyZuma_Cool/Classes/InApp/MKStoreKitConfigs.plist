@@ -4,19 +4,19 @@
 <dict>
 	<key>Consumables</key>
 	<dict>
-		<key>com.YourBundleId.levelskipsx3</key>
+		<key>com.intencemedia.zumawarfare.threelevelskip</key>
 		<dict>
 			<key>Count</key>
 			<integer>3</integer>
 			<key>Name</key>
-			<string>com.YourBundleId.levelskipsx3</string>
+			<string>com.intencemedia.zumawarfare.threelevelskip</string>
 		</dict>
 	</dict>
 	<key>Non-Consumables</key>
 	<array>
 		<string>com.intencemedia.zumawarfare.removeads</string>
-		<string>com.intencemedia.zumawarfare.threepack</string>
 		<string>com.intencemedia.zumawarfare.twocharactor</string>
+		<string>com.intencemedia.zumawarfare.threecharactor</string>
 		<string>com.intencemedia.zumawarfare.all</string>
 	</array>
 	<key>Subscriptions</key>
