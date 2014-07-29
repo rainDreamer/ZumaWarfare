@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3C0084C617E1533B000AC4A1"
                BuildableName = "Zuma Warfare.app"
-               BlueprintName = "Zuma Warfare"
-               ReferencedContainer = "container:Zuma Warfare.xcodeproj">
+               BlueprintName = "Zumi Warfare"
+               ReferencedContainer = "container:Zumi Warfare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C0084C617E1533B000AC4A1"
             BuildableName = "Zuma Warfare.app"
-            BlueprintName = "Zuma Warfare"
-            ReferencedContainer = "container:Zuma Warfare.xcodeproj">
+            BlueprintName = "Zumi Warfare"
+            ReferencedContainer = "container:Zumi Warfare.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C0084C617E1533B000AC4A1"
             BuildableName = "Zuma Warfare.app"
-            BlueprintName = "Zuma Warfare"
-            ReferencedContainer = "container:Zuma Warfare.xcodeproj">
+            BlueprintName = "Zumi Warfare"
+            ReferencedContainer = "container:Zumi Warfare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C0084C617E1533B000AC4A1"
             BuildableName = "Zuma Warfare.app"
-            BlueprintName = "Zuma Warfare"
-            ReferencedContainer = "container:Zuma Warfare.xcodeproj">
+            BlueprintName = "Zumi Warfare"
+            ReferencedContainer = "container:Zumi Warfare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

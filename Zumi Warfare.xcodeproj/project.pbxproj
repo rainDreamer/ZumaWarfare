@@ -687,7 +687,7 @@
 		10B63CAC1978113000E81BAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		10B63CAE1978123100E81BAD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		10B63CB0197812CA00E81BAD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		3C0084C717E1533B000AC4A1 /* Zuma Warfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zuma Warfare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0084C717E1533B000AC4A1 /* Zumi Warfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zumi Warfare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0084CA17E1533B000AC4A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C0084CC17E1533B000AC4A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		3C0084CE17E1533B000AC4A1 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1588,7 +1588,7 @@
 		3C0084C817E1533B000AC4A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C0084C717E1533B000AC4A1 /* Zuma Warfare.app */,
+				3C0084C717E1533B000AC4A1 /* Zumi Warfare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2764,9 +2764,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C0084C617E1533B000AC4A1 /* Zuma Warfare */ = {
+		3C0084C617E1533B000AC4A1 /* Zumi Warfare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C00867A17E1533E000AC4A1 /* Build configuration list for PBXNativeTarget "Zuma Warfare" */;
+			buildConfigurationList = 3C00867A17E1533E000AC4A1 /* Build configuration list for PBXNativeTarget "Zumi Warfare" */;
 			buildPhases = (
 				3C0084C317E1533B000AC4A1 /* Sources */,
 				3C0084C417E1533B000AC4A1 /* Frameworks */,
@@ -2776,9 +2776,9 @@
 			);
 			dependencies = (
 			);
-			name = "Zuma Warfare";
+			name = "Zumi Warfare";
 			productName = CandyZuma_Cool;
-			productReference = 3C0084C717E1533B000AC4A1 /* Zuma Warfare.app */;
+			productReference = 3C0084C717E1533B000AC4A1 /* Zumi Warfare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2800,7 +2800,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C0084C217E1533B000AC4A1 /* Build configuration list for PBXProject "Zuma Warfare" */;
+			buildConfigurationList = 3C0084C217E1533B000AC4A1 /* Build configuration list for PBXProject "Zumi Warfare" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2812,7 +2812,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C0084C617E1533B000AC4A1 /* Zuma Warfare */,
+				3C0084C617E1533B000AC4A1 /* Zumi Warfare */,
 			);
 		};
 /* End PBXProject section */
@@ -3520,7 +3520,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "Zuma Warfare";
+				PRODUCT_NAME = "Zumi Warfare";
 				PROVISIONING_PROFILE = "41A82988-7F69-4BC5-83EE-58E15359FFC7";
 				WRAPPER_EXTENSION = app;
 			};
@@ -3557,7 +3557,7 @@
 					"-lsqlite3",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "Zuma Warfare";
+				PRODUCT_NAME = "Zumi Warfare";
 				PROVISIONING_PROFILE = "BDE1DA46-6775-4B34-8ED0-99E63CC87BC4";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -3567,7 +3567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C0084C217E1533B000AC4A1 /* Build configuration list for PBXProject "Zuma Warfare" */ = {
+		3C0084C217E1533B000AC4A1 /* Build configuration list for PBXProject "Zumi Warfare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C00867817E1533E000AC4A1 /* Debug */,
@@ -3576,7 +3576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C00867A17E1533E000AC4A1 /* Build configuration list for PBXNativeTarget "Zuma Warfare" */ = {
+		3C00867A17E1533E000AC4A1 /* Build configuration list for PBXNativeTarget "Zumi Warfare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C00867B17E1533E000AC4A1 /* Debug */,
