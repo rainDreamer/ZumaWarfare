@@ -30,6 +30,7 @@
 		10124886197826B20046089F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10124880197826B20046089F /* README.md */; };
 		10124887197826B20046089F /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 10124881197826B20046089F /* release_notes.md */; };
 		101248881978272F0046089F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CAA1978112000E81BAD /* libz.dylib */; };
+		101A9DE61995F4E800264794 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101A9DE51995F4E800264794 /* CoreData.framework */; };
 		10AC18F41978EBA100D03176 /* libFlurry_5.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AC18F31978EBA100D03176 /* libFlurry_5.2.0.a */; };
 		10B63CA7197810E300E81BAD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CA6197810E300E81BAD /* Parse.framework */; };
 		10B63CA91978111300E81BAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B63CA81978111300E81BAD /* CoreLocation.framework */; };
@@ -679,6 +680,7 @@
 		10124882197826B20046089F /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
 		10124883197826B20046089F /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		10124884197826B20046089F /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		101A9DE51995F4E800264794 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		10AC18F21978EBA100D03176 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		10AC18F31978EBA100D03176 /* libFlurry_5.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.2.0.a; sourceTree = "<group>"; };
 		10B63CA6197810E300E81BAD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -687,6 +689,11 @@
 		10B63CAC1978113000E81BAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		10B63CAE1978123100E81BAD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		10B63CB0197812CA00E81BAD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		10BC3AC91995F19F00720D89 /* CBMoreAppsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMoreAppsButton.h; sourceTree = "<group>"; };
+		10BC3ACA1995F19F00720D89 /* CBNewsfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNewsfeed.h; sourceTree = "<group>"; };
+		10BC3ACB1995F19F00720D89 /* CBNewsfeedUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNewsfeedUI.h; sourceTree = "<group>"; };
+		10BC3ACC1995F19F00720D89 /* CBPostInstallAnalyticsTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPostInstallAnalyticsTracker.h; sourceTree = "<group>"; };
+		10BC3ACD1995F19F00720D89 /* CBStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBStory.h; sourceTree = "<group>"; };
 		3C0084C717E1533B000AC4A1 /* Zumi Warfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zumi Warfare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0084CA17E1533B000AC4A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3C0084CC17E1533B000AC4A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1512,6 +1519,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101A9DE61995F4E800264794 /* CoreData.framework in Frameworks */,
 				101248881978272F0046089F /* libz.dylib in Frameworks */,
 				10B63CB1197812CA00E81BAD /* Accounts.framework in Frameworks */,
 				10B63CAD1978113000E81BAD /* MobileCoreServices.framework in Frameworks */,
@@ -1596,6 +1604,7 @@
 		3C0084C917E1533B000AC4A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				101A9DE51995F4E800264794 /* CoreData.framework */,
 				10B63CB0197812CA00E81BAD /* Accounts.framework */,
 				10B63CAE1978123100E81BAD /* FacebookSDK.framework */,
 				10B63CAC1978113000E81BAD /* MobileCoreServices.framework */,
@@ -2575,6 +2584,11 @@
 		3CAC285117ECA50F0046E8DE /* Chartboost */ = {
 			isa = PBXGroup;
 			children = (
+				10BC3AC91995F19F00720D89 /* CBMoreAppsButton.h */,
+				10BC3ACA1995F19F00720D89 /* CBNewsfeed.h */,
+				10BC3ACB1995F19F00720D89 /* CBNewsfeedUI.h */,
+				10BC3ACC1995F19F00720D89 /* CBPostInstallAnalyticsTracker.h */,
+				10BC3ACD1995F19F00720D89 /* CBStory.h */,
 				3CAC285217ECA50F0046E8DE /* Chartboost.h */,
 				3CAC285317ECA50F0046E8DE /* libChartboost.a */,
 				3CAC285417ECA50F0046E8DE /* README.md */,
@@ -3511,8 +3525,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/CandyZuma_Cool/Classes/Chartboost\"",
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
-					"$(PROJECT_DIR)/CandyZuma_Cool/TestFlightSDK3.0.2",
-					"$(PROJECT_DIR)/CandyZuma_Cool/libs/TestFlightSDK3.0.2",
 					"$(PROJECT_DIR)/CandyZuma_Cool/Flurry",
 				);
 				OTHER_LDFLAGS = (
@@ -3548,8 +3560,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/CandyZuma_Cool/Classes/Chartboost\"",
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
-					"$(PROJECT_DIR)/CandyZuma_Cool/TestFlightSDK3.0.2",
-					"$(PROJECT_DIR)/CandyZuma_Cool/libs/TestFlightSDK3.0.2",
 					"$(PROJECT_DIR)/CandyZuma_Cool/Flurry",
 				);
 				OTHER_LDFLAGS = (
@@ -3558,7 +3568,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "Zumi Warfare";
-				PROVISIONING_PROFILE = "E46B8120-B287-4694-99BB-069F95DB174A";
+				PROVISIONING_PROFILE = "BDE1DA46-6775-4B34-8ED0-99E63CC87BC4";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

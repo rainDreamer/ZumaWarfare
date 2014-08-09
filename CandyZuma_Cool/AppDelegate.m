@@ -195,15 +195,15 @@
 
     [AdColony configureWithAppID:AdColony_AppID zoneIDs:@[AdColony_ZoneID] delegate:self logging:YES];
 
-    Chartboost* cb = [Chartboost sharedChartboost];
-    cb.appId = @"53c7e6c51873da0f92f97b7a";
-    cb.appSignature = @"3c07b0ceab00637fa0e9a5c8765ca095299fed97";
-    cb.delegate = self;
-    [cb startSession];
-    //    [cb cacheInterstitial];
-    [cb cacheMoreApps];
+//    Chartboost* cb = [Chartboost sharedChartboost];
+//    cb.appId = @"53c7e6c51873da0f92f97b7a";
+//    cb.appSignature = @"3c07b0ceab00637fa0e9a5c8765ca095299fed97";
+//    cb.delegate = self;
+//    [cb startSession];
+//    //    [cb cacheInterstitial];
+//    [cb cacheMoreApps];
     [self showRevmob];
-    [self showCharboost];
+//    [self showCharboost];
     [self showPlayhaven:PlayHaven_PlacementID_1];
 
 	return YES;
@@ -294,6 +294,9 @@
 // call got rejected
 -(void) applicationDidBecomeActive:(UIApplication *)application
 {
+    [Chartboost startWithAppId:@"53c7e6c51873da0f92f97b7a" appSignature:@"3c07b0ceab00637fa0e9a5c8765ca095299fed97" delegate:self];
+//    [[Chartboost sharedChartboost] showInterstitial:CBLocationHomeScreen];
+    
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
 	if( [navController_ visibleViewController] == director_ )
 		[director_ resume];
