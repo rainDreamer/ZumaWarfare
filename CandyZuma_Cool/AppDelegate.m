@@ -295,7 +295,7 @@
 -(void) applicationDidBecomeActive:(UIApplication *)application
 {
     [Chartboost startWithAppId:@"53c7e6c51873da0f92f97b7a" appSignature:@"3c07b0ceab00637fa0e9a5c8765ca095299fed97" delegate:self];
-//    [[Chartboost sharedChartboost] showInterstitial:CBLocationHomeScreen];
+    [[Chartboost sharedChartboost] showInterstitial:CBLocationHomeScreen];
     
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
 	if( [navController_ visibleViewController] == director_ )

@@ -318,9 +318,9 @@ const int DEF_UnlockAllLevels_Y = 245;
 {
     if (gbSoundEnable)
     [[SimpleAudioEngine sharedEngine] playEffect:@"buffoneffect.mp3"];
-    [[Chartboost sharedChartboost] showMoreApps];
-    AppController* appDel = (AppController*)[[UIApplication sharedApplication] delegate];
-    [[PHPublisherContentRequest requestForApp:phtoken secret: phsecret placement: PlayHaven_PlacementID_6 delegate: appDel] send];
+    [[Chartboost sharedChartboost] showMoreApps:CBLocationPause];
+//    AppController* appDel = (AppController*)[[UIApplication sharedApplication] delegate];
+//    [[PHPublisherContentRequest requestForApp:phtoken secret: phsecret placement: PlayHaven_PlacementID_6 delegate: appDel] send];
 }
 
 - (void) onNewGames: (id) sender
